@@ -2,7 +2,6 @@
 ### Durada: 50 horas.Continguts bàsics =>
 
 ### TEMA 1- Implantació d'arquitecturs web
-
 1. Arquitectures web. Models.
 - De què et parlaran: Tipus d’arquitectures web que existeixen (monolítica, de tres capes, microserveis, etc.) i com s’organitzen les aplicacions web.
 - Què aprendràs: Entendre com es reparteix el treball entre client, servidor i base de dades, i quin model és més adequat per a cada cas.
@@ -10,20 +9,17 @@
 2. Servidors web i d'aplicacions. Instal·lació i configuració bàsica.
 - De què et parlaran: Diferències entre un servidor web (com Apache, Nginx) i un servidor d’aplicacions (com Tomcat, WildFly).
 - Què aprendràs:
-        
     * Instal·lar un servidor web en un entorn local o remot.
     * Configurar-lo per servir pàgines web i aplicacions.
     * Ajustos bàsics de seguretat i rendiment.
 
 3. Tecnologies de virtualització de servidors en la núvol i en contenidors. Instal·lació i configuració bàsica.
 - De què et parlaran:
-
     * Virtualització tradicional (VMware, VirtualBox).
     * Virtualització en el núvol (AWS, Azure, Google Cloud).
     * Contenidors (Docker, Kubernetes).
 
 - Què aprendràs:
-
     * Crear i gestionar màquines virtuals.
     * Executar aplicacions en contenidors.
     * Entendre com es despleguen serveis web en entorns escalables.
@@ -32,15 +28,13 @@
 - De què et parlaran: Les parts bàsiques d’una aplicació web: fitxers HTML/CSS/JS, imatges, backend, base de dades, APIs, etc.
 
 - Què aprendràs:
-
-* Reconèixer l’estructura d’un projecte web.
-* Saber on es guarden i com s’organitzen els recursos.
-* Com es comuniquen el frontend i el backend.
+        * Reconèixer l’estructura d’un projecte web.
+        * Saber on es guarden i com s’organitzen els recursos.
+        * Com es comuniquen el frontend i el backend.
 
 5. Documentació dels processos realitzats.
 - De què et parlaran: Bones pràctiques per documentar el que has fet, per a que qualsevol altre pugui repetir el procés.
 - Què aprendràs:
-
     * Escriure documentació tècnica clara.
     * Fer captures de pantalla, passos detallats i notes.
     * Mantenir registres de configuració i instal·lació.
