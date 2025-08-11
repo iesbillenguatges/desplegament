@@ -1,7 +1,7 @@
 # El mòdul profesional 0614. Desplegament d'aplicaciones web queda redactat:
-## Durada: 50 horas.Continguts bàsics =>
+### Durada: 50 horas.Continguts bàsics =>
 
-**TEMA 1- Implantació d'arquitecturs web**
+### TEMA 1- Implantació d'arquitecturs web
 
 1. Arquitectures web. Models.
 - De què et parlaran: Tipus d’arquitectures web que existeixen (monolítica, de tres capes, microserveis, etc.) i com s’organitzen les aplicacions web.
@@ -47,119 +47,74 @@
 
 En resum: Al final del tema, hauràs après a muntar des de zero una arquitectura web bàsica, tant en un servidor físic o virtual com en contenidors, entendre com es despleguen aplicacions, i deixar-ho tot documentat perquè siga replicable.
 
-**TEMA 2- Administració de servidors web**
-
+### TEMA 2- Administració de servidors web
 1. Configuració avanzada del servidor web
-
-    De què et parlaran: Ajustos més detallats d’un servidor com Apache o Nginx (optimització, seguretat, rendiment).
-
-    Què aprendràs:
-
-        Canviar configuracions per millorar velocitat.
-
-        Gestionar càrregues altes de trànsit.
-
-        Ajustar paràmetres de seguretat i compatibilitat.
+- De què et parlaran: Ajustos més detallats d’un servidor com Apache o Nginx (optimització, seguretat, rendiment).
+- Què aprendràs:
+        * Canviar configuracions per millorar velocitat.
+        * Gestionar càrregues altes de trànsit.
+        * Ajustar paràmetres de seguretat i compatibilitat.
 
 2. Môduls: instalació, configuració i ús
-
-    De què et parlaran: Extensions o plugins del servidor web que afegeixen funcionalitats (per exemple, mod_rewrite, mod_ssl).
-
-    Què aprendràs:
-
-        Instal·lar mòduls addicionals.
-
-        Configurar-los per fer tasques concretes (redireccions, compressió, seguretat).
-
-        Saber quins mòduls utilitzar segons la necessitat.
+- De què et parlaran: Extensions o plugins del servidor web que afegeixen funcionalitats (per exemple, mod_rewrite, mod_ssl).
+- Què aprendràs:
+        * Instal·lar mòduls addicionals.
+        * Configurar-los per fer tasques concretes (redireccions, compressió, seguretat).
+        * Saber quins mòduls utilitzar segons la necessitat.
 
 3. Hosts virtuals. Creació, configuració i utilizació
-
-    De què et parlaran: Com fer que un mateix servidor atenga diferents webs amb diferents dominis.
-
-    Què aprendràs:
-
-        Crear i configurar “virtual hosts” per tenir diverses pàgines al mateix servidor.
-
-        Gestionar dominis i subdominis.
+- De què et parlaran: Com fer que un mateix servidor atenga diferents webs amb diferents dominis.
+- Què aprendràs:
+        * Crear i configurar “virtual hosts” per tenir diverses pàgines al mateix servidor.
+        * Gestionar dominis i subdominis.
 
 4. Autenticació i control d'accés
-
-    De què et parlaran: Com protegir zones d’una web o tot el lloc amb usuaris i contrasenyes.
-
-    Què aprendràs:
-
-        Crear sistemes d’autenticació bàsica.
-
-        Configurar permisos i restriccions segons IP o rol.
+- De què et parlaran: Com protegir zones d’una web o tot el lloc amb usuaris i contrasenyes.
+- Què aprendràs:
+        * Crear sistemes d’autenticació bàsica.
+        * Configurar permisos i restriccions segons IP o rol.
 
 5. El protocolo HTTPS
+- De què et parlaran: Què és HTTPS, per què és més segur que HTTP i com funciona el xifrat.
+- Què aprendràs:
+        * Configurar un servidor perquè treballe amb HTTPS.
+        * Entendre la negociació SSL/TLS.
 
-    De què et parlaran: Què és HTTPS, per què és més segur que HTTP i com funciona el xifrat.
-
-    Què aprendràs:
-
-        Configurar un servidor perquè treballe amb HTTPS.
-
-        Entendre la negociació SSL/TLS.
-
-6. Certificatss. Servidors de certificats
-
-    De què et parlaran: Tipus de certificats (autofirmats, d’autoritats reconegudes) i com obtenir-los.
-
-    Què aprendràs:
-
-        Instal·lar certificats SSL.
-
-        Configurar renovació automàtica amb eines com Let’s Encrypt.
-
-        Muntar un servidor de certificats propi.
+6. Certificats. Servidors de certificats
+- De què et parlaran: Tipus de certificats (autofirmats, d’autoritats reconegudes) i com obtenir-los.
+- Què aprendràs:
+        * Instal·lar certificats SSL.
+        * Configurar renovació automàtica amb eines com Let’s Encrypt.
+        * Muntar un servidor de certificats propi.
 
 7. Documentació
-
-    De què et parlaran: Com deixar constància clara dels canvis i configuracions.
-
-    Què aprendràs:
-
-        Escriure manuals de manteniment i procediments.
-
-        Crear guies de resolució de problemes.
+- De què et parlaran: Com deixar constància clara dels canvis i configuracions.
+- Què aprendràs:
+        * Escriure manuals de manteniment i procediments.
+        * Crear guies de resolució de problemes.
 
 8. Desplegament d'aplicacions sobre servidors web
+- De què et parlaran: Com pujar i configurar aplicacions (WordPress, aplicacions Node.js, etc.) perquè funcionin al servidor.
+- Què aprendràs:
+        * Fer desplegaments segurs i repetibles.
+        * Configurar entorns de producció.
 
-    De què et parlaran: Com pujar i configurar aplicacions (WordPress, aplicacions Node.js, etc.) perquè funcionin al servidor.
+9. Despliegament de servidors web mitjançant virtualizació en el núvol i contenidors
+- De què et parlaran: Maneres de muntar servidors web ràpidament en entorns virtualitzats o contenidors.
+- Què aprendràs:
+        * Crear servidors al núvol (AWS, Azure, GCP).
+        * Desplegar servidors web en Docker/Kubernetes.
 
-    Què aprendràs:
-
-        Fer desplegaments segurs i repetibles.
-
-        Configurar entorns de producció.
-
-9. Despliegament de servidors web mitjançant virtualizació en el núvol i contenedors
-
-    De què et parlaran: Maneres de muntar servidors web ràpidament en entorns virtualitzats o contenidors.
-
-    Què aprendràs:
-
-        Crear servidors al núvol (AWS, Azure, GCP).
-
-        Desplegar servidors web en Docker/Kubernetes.
-
-10. Conjunt d'eines de gestión de logs
-
-    De què et parlaran: Eines per analitzar registres d’ús i d’errors (Elasticsearch, Kibana, Splunk).
-
-    Què aprendràs:
-
-        Instal·lar i configurar sistemes de logs centralitzats.
-
-        Utilitzar dades per prendre decisions (optimització, seguretat).
-
-        Introducció a l’ús de Big Data per l’anàlisi de logs.
+10. Conjunt d'eines de gestió de logs
+- De què et parlaran: Eines per a analitzar registres d’ús i d’errors (Elasticsearch, Kibana, Splunk).
+- Què aprendràs:
+        * Instal·lar i configurar sistemes de logs centralitzats.
+        * Utilitzar dades per prendre decisions (optimització, seguretat).
+        * Introducció a l’ús de Big Data per l’anàlisi de logs.
 
 En resum: Aquest curs et portarà de saber “muntar” un servidor web a administrar-lo de manera professional: seguretat amb HTTPS, múltiples dominis, gestió d’usuaris, desplegament d’apps, virtualització avançada i ús de logs per millorar rendiment i detectar problemes.
 
-3- Administración de servidores de aplicaciones:
+### 3- Administración de servidores de aplicaciones:
 
 1. Arquitectura i configuració bàsica del servidor d’aplicacions
 
