@@ -109,119 +109,71 @@ En resum: Al final del tema, hauràs après a muntar des de zero una arquitectur
 En resum: Aquest curs et portarà de saber “muntar” un servidor web a administrar-lo de manera professional: seguretat amb HTTPS, múltiples dominis, gestió d’usuaris, desplegament d’apps, virtualització avançada i ús de logs per millorar rendiment i detectar problemes.
 
 ### 3- Administración de servidores de aplicaciones:
-
 1. Arquitectura i configuració bàsica del servidor d’aplicacions
-
-    De què et parlaran: Com està organitzat un servidor d’aplicacions internament: mòduls, serveis, ports, fitxers de configuració.
-
-    Què aprendràs:
-
-        Instal·lar un servidor d’aplicacions (per exemple, WildFly, GlassFish, Tomcat…).
-
-        Configurar paràmetres bàsics (puerto, memòria, logs).
-
-        Entendre la diferència entre servidor web i servidor d’aplicacions.
+- De què et parlaran: Com està organitzat un servidor d’aplicacions internament: mòduls, serveis, ports, fitxers de configuració.
+- Què aprendràs:
+        * Instal·lar un servidor d’aplicacions (per exemple, WildFly, GlassFish, Tomcat…).
+        * Configurar paràmetres bàsics (puerto, memòria, logs).
+        * Entendre la diferència entre servidor web i servidor d’aplicacions.
 
 2. Administrar aplicacions web
-
-    De què et parlaran: Com desplegar, actualitzar i eliminar aplicacions web al servidor.
-
-    Què aprendràs:
-
-        Pujar arxius .war o .ear (Java) o equivalents en altres plataformes.
-
-        Gestionar versions i entorns (dev, test, producció).
-
-        Monitoritzar l’estat de les aplicacions.
+- De què et parlaran: Com desplegar, actualitzar i eliminar aplicacions web al servidor.
+- Què aprendràs:
+        * Pujar arxius .war o .ear (Java) o equivalents en altres plataformes.
+        * Gestionar versions i entorns (dev, test, producció).
+        * Monitoritzar l’estat de les aplicacions.
 
 3. Autenticació d’usuaris i dominis de seguretat
-
-    De què et parlaran: Mecanismes perquè només usuaris autoritzats accedeixin a parts de l’aplicació.
-
-    Què aprendràs:
-
-        Configurar usuaris i rols.
-
-        Integrar autenticació amb LDAP, bases de dades o Single Sign-On.
-
-        Entendre conceptes de realm, domain, role-based access control.
+- De què et parlaran: Mecanismes perquè només usuaris autoritzats accedeixin a parts de l’aplicació.
+- Què aprendràs:
+        * Configurar usuaris i rols.
+        * Integrar autenticació amb LDAP, bases de dades o Single Sign-On.
+        * Entendre conceptes de realm, domain, role-based access control.
 
 4. Administració de sessions
-
-    De què et parlaran: Com el servidor gestiona la informació de la sessió d’un usuari.
-
-    Què aprendràs:
-
-        Configurar temps de caducitat (timeout).
-
-        Guardar sessions en memòria, base de dades o distribuïdes entre diversos servidors.
-
-        Bones pràctiques per seguretat i rendiment.
+- De què et parlaran: Com el servidor gestiona la informació de la sessió d’un usuari.
+- Què aprendràs:
+        * Configurar temps de caducitat (timeout).
+        * Guardar sessions en memòria, base de dades o distribuïdes entre diversos servidors.
+        * Bones pràctiques per seguretat i rendiment.
 
 5. Configurar el servidor d’aplicacions per cooperar amb servidors web
-
-    De què et parlaran: Integració amb servidors web com Apache HTTP Server o Nginx.
-
-    Què aprendràs:
-
-        Configurar reverse proxies.
-
-        Millorar rendiment amb load balancing.
-
-        Fer que el servidor web serveixi contingut estàtic i el d’aplicacions contingut dinàmic.
+- De què et parlaran: Integració amb servidors web com Apache HTTP Server o Nginx.
+- Què aprendràs:
+        * Configurar reverse proxies.
+        * Millorar rendiment amb load balancing.
+        * Fer que el servidor web serveixi contingut estàtic i el d’aplicacions contingut dinàmic.
 
 6. Desplegament d’aplicacions
-
-    De què et parlaran: Diferents maneres de posar aplicacions en marxa al servidor.
-
-    Què aprendràs:
-
-        Desplegament manual i automatitzat.
-
-        Ús d’eines com scripts, pipelines de CI/CD (Jenkins, GitLab CI…).
-
-        Estratègies blue/green deployment o rolling updates.
+- De què et parlaran: Diferents maneres de posar aplicacions en marxa al servidor.
+- Què aprendràs:
+        * Desplegament manual i automatitzat.
+        * Ús d’eines com scripts, pipelines de CI/CD (Jenkins, GitLab CI…).
+        * Estratègies blue/green deployment o rolling updates.
 
 7. Seguretat en el servidor d’aplicacions
-
-    De què et parlaran: Protegir el servidor contra atacs i vulnerabilitats.
-
-    Què aprendràs:
-
-        Configurar HTTPS, certificats SSL/TLS.
-
-        Bloquejar ports innecessaris.
-
-        Aplicar security patches i actualitzacions.
+- De què et parlaran: Protegir el servidor contra atacs i vulnerabilitats.
+- Què aprendràs:
+        * Configurar HTTPS, certificats SSL/TLS.
+        * Bloquejar ports innecessaris.
+        * Aplicar security patches i actualitzacions.
 
 8. Documentació
-
-    De què et parlaran: Importància de registrar la configuració i processos.
-
-    Què aprendràs:
-
-        Documentar instal·lacions i canvis.
-
-        Crear guies per a altres administradors.
-
-        Mantenir un històric d’incidències i configuracions.
+- De què et parlaran: Importància de registrar la configuració i processos.
+- Què aprendràs:
+        * Documentar instal·lacions i canvis.
+        * Crear guies per a altres administradors.
+        * Mantenir un històric d’incidències i configuracions.
 
 9. Desplegament amb virtualització, núvol i contenidors
+- De què et parlaran: Com posar en marxa servidors d’aplicacions en entorns moderns.
+- Què aprendràs:
+        * Crear màquines virtuals amb VMware, VirtualBox o Hyper-V.
+        * Desplegar al núvol (AWS, Azure, GCP).
+        * Utilitzar Docker i possiblement Kubernetes per contenidors.
+        * Fer que el servidor sigui escalable i fàcil de replicar.
 
-    De què et parlaran: Com posar en marxa servidors d’aplicacions en entorns moderns.
-
-    Què aprendràs:
-
-        Crear màquines virtuals amb VMware, VirtualBox o Hyper-V.
-
-        Desplegar al núvol (AWS, Azure, GCP).
-
-        Utilitzar Docker i possiblement Kubernetes per contenidors.
-
-        Fer que el servidor sigui escalable i fàcil de replicar.
-
-
-4- Instalación y administración de servidores de transferencia de archivos:
+### 4- Instalación y administración de servidores de transferencia de archivos:
 
 1. Configuració del servei de transferència de fitxers. Permisos i quotes
 
