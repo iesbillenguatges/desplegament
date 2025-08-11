@@ -1,0 +1,111 @@
+1. Eines col·laboratives per generar documentació. Instal·lació, configuració i ús
+
+    De què et parlaran:
+
+        Plataformes i programes per crear i mantenir documentació compartida (ex. Confluence, Google Docs, Notion).
+
+        Com instal·lar i configurar aquestes eines.
+
+    Què aprendràs:
+
+        Col·laborar en temps real.
+
+        Controlar versions dels documents.
+
+        Organitzar la documentació de forma clara i accessible.
+
+2. Creació i utilització de plantilles
+
+    De què et parlaran:
+
+        Com crear plantilles per agilitzar la redacció (ex. guies, informes, manuals).
+
+        Estàndards i bones pràctiques.
+
+    Què aprendràs:
+
+        Establir formats uniformes.
+
+        Utilitzar plantilles per estalviar temps i mantenir la qualitat.
+
+3. Instal·lació, configuració i ús de sistemes de control de versions
+
+    De què et parlaran:
+
+        Conceptes bàsics de control de versions (VCS).
+
+        Instal·lació i ús de Git, SVN o altres eines.
+
+    Què aprendràs:
+
+        Crear repositoris, fer commits, branches i merges.
+
+        Treballar amb repositoris remots (GitHub, GitLab, Bitbucket).
+
+4. Operacions avançades
+
+    De què et parlaran:
+
+        Estratègies avançades per gestionar branques i conflictes.
+
+        Rebase, cherry-pick, revert, stash.
+
+    Què aprendràs:
+
+        Resoldre conflictes.
+
+        Mantenir un historial net i ordenat.
+
+        Millorar el flux de treball en equips grans.
+
+5. Seguretat dels sistemes de control de versions
+
+    De què et parlaran:
+
+        Protecció de la informació del codi font.
+
+        Control d’accés, claus SSH, autenticació multifactor.
+
+    Què aprendràs:
+
+        Configurar permisos.
+
+        Evitar exposició de dades sensibles.
+
+        Auditar canvis i accessos.
+
+6. Instal·lació, configuració i ús de sistemes d’integració contínua (CI)
+
+    De què et parlaran:
+
+        Què és la integració contínua: automatitzar proves i compilacions cada cop que es canvia el codi.
+
+        Eines com Jenkins, GitLab CI, Travis CI, CircleCI.
+
+    Què aprendràs:
+
+        Configurar pipelines per a builds i tests automàtics.
+
+        Integrar amb repositoris de codi.
+
+        Automatitzar desplegaments.
+
+7. Monitorització contínua de les mètriques de qualitat de l’aplicació
+
+    De què et parlaran:
+
+        Com mesurar la qualitat del codi: cobertura de tests, complexitat, vulnerabilitats.
+
+        Eines com SonarQube, CodeClimate.
+
+    Què aprendràs:
+
+        Analitzar i interpretar mètriques.
+
+        Integrar la monitorització dins del procés CI.
+
+        Millorar contínuament la qualitat del projecte.
+
+Resum
+
+Aquest curs t’ajudarà a dominar les eines i processos per treballar en equip, mantenir la documentació actualitzada, gestionar el codi de manera segura i automatitzar proves i desplegaments per garantir la qualitat del programari.
