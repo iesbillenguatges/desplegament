@@ -234,124 +234,76 @@ En resum: Aquest curs et portarà de saber “muntar” un servidor web a admini
         * Escalar i replicar fàcilment el servei.
 
 ### 5- Servicios de red implicados en el despliegue de una aplicación web:
-
 1. Resolutors de noms. Procés de resolució d’un nom de domini
+- De què et parlaran:
+   * Com es converteix un nom amigable com www.example.com en una adreça IP.
+   * Funcionament de DNS (Domain Name System).
 
-    De què et parlaran:
-
-        Com es converteix un nom amigable com www.example.com en una adreça IP.
-
-        Funcionament de DNS (Domain Name System).
-
-    Què aprendràs:
-
-        Com funciona la jerarquia DNS (arrel, TLD, autoritatius).
-
-        Tipus de consultes DNS: recursives i iteratives.
-
-        Cacheig i propagació dels canvis DNS.
+- Què aprendràs:
+        * Com funciona la jerarquia DNS (arrel, TLD, autoritatius).
+        * Tipus de consultes DNS: recursives i iteratives.
+        * Cacheig i propagació dels canvis DNS.
 
 2. Paràmetres de configuració i registres del servidor de noms afectats en el desplegament
+- De què et parlaran:
+        * Com configurar servidors DNS autoritatius o recursius.
+        * Tipus de registres DNS: A, AAAA, CNAME, MX, TXT, SRV, etc.
 
-    De què et parlaran:
-
-        Com configurar servidors DNS autoritatius o recursius.
-
-        Tipus de registres DNS: A, AAAA, CNAME, MX, TXT, SRV, etc.
-
-    Què aprendràs:
-
-        Crear i modificar zones DNS.
-
-        Gestionar registres per associar dominis a IPs i serveis.
-
-        Paràmetres per optimitzar el rendiment i la seguretat del servidor DNS.
+- Què aprendràs:
+        * Crear i modificar zones DNS.
+        * Gestionar registres per associar dominis a IPs i serveis.
+        * Paràmetres per optimitzar el rendiment i la seguretat del servidor DNS.
 
 3. Servei de directoris: característiques i funcionalitat
+- De què et parlaran:
+        * Què és un servei de directoris (com LDAP).
+        * Com s’utilitza per centralitzar la gestió d’usuaris, grups i recursos.
 
-    De què et parlaran:
-
-        Què és un servei de directoris (com LDAP).
-
-        Com s’utilitza per centralitzar la gestió d’usuaris, grups i recursos.
-
-    Què aprendràs:
-
-        Entendre l’estructura jeràrquica d’un directori.
-
-        Aplicacions pràctiques com l’autenticació centralitzada.
+- Què aprendràs:
+        * Entendre l’estructura jeràrquica d’un directori.
+        * Aplicacions pràctiques com l’autenticació centralitzada.
 
 4. Arxius bàsics de configuració
-
-    De què et parlaran:
-
-        On i com es configuren servidors DNS i serveis de directoris (fitxers com named.conf, slapd.conf).
-
-    Què aprendràs:
-
-        Editar i personalitzar aquests arxius per adaptar-los a les necessitats del desplegament.
-
-        Recarregar configuracions sense parar el servei.
+- De què et parlaran: On i com es configuren servidors DNS i serveis de directoris (fitxers com named.conf, slapd.conf).
+- Què aprendràs:
+        * Editar i personalitzar aquests arxius per adaptar-los a les necessitats del desplegament.
+        * Recarregar configuracions sense parar el servei.
 
 5. Autenticació d’usuaris en el servei de directoris
+- De què et parlaran:
+        * Com els serveis de directoris gestionen l’autenticació i l’autorització.
+        * Protocols com LDAP i Kerberos.
 
-    De què et parlaran:
-
-        Com els serveis de directoris gestionen l’autenticació i l’autorització.
-
-        Protocols com LDAP i Kerberos.
-
-    Què aprendràs:
-
-        Configurar usuaris i grups en LDAP.
-
-        Integrar el servei de directoris amb aplicacions per validar usuaris.
+- Què aprendràs:
+        * Configurar usuaris i grups en LDAP.
+        * Integrar el servei de directoris amb aplicacions per validar usuaris.
 
 6. Adaptació de la configuració del servidor de directoris per al desplegament de l’aplicació
-
-    De què et parlaran:
-
-        Ajustar la configuració per a que l’aplicació web pugui utilitzar el servei de directoris per gestionar usuaris i permisos.
-
-    Què aprendràs:
-
-        Crear esquemes i rutes per a l’aplicació.
-
-        Millorar la seguretat i el rendiment del servei.
+- De què et parlaran: Ajustar la configuració per a que l’aplicació web pugui utilitzar el servei de directoris per gestionar usuaris i permisos.
+- Què aprendràs:
+        * Crear esquemes i rutes per a l’aplicació.
+        * Millorar la seguretat i el rendiment del servei.
 
 7. Documentació
-
-    De què et parlaran:
-
-        Importància de mantenir un registre detallat de la configuració i canvis.
-
-    Què aprendràs:
-
-        Crear documentació clara i accessible per a futurs administradors.
-
-        Documentar processos d’actualització i incidències.
+- De què et parlaran: Importància de mantenir un registre detallat de la configuració i canvis.
+- Què aprendràs:
+        * Crear documentació clara i accessible per a futurs administradors.
+        * Documentar processos d’actualització i incidències.
 
 8. Desplegament de servidors de directoris amb virtualització, núvol i contenidors
+- De què et parlaran:
+        * Com posar en marxa serveis de directoris en entorns virtuals i en el núvol.
+        * Utilització de Docker, Kubernetes i màquines virtuals per desplegar i escalar aquests serveis.
+- Què aprendràs:
+        * Crear imatges i contenidors amb serveis LDAP configurats.
+        * Desplegar a plataformes com AWS, Azure o Google Cloud.
+        * Automatitzar el desplegament i la gestió.
 
-    De què et parlaran:
+Resum:
 
-        Com posar en marxa serveis de directoris en entorns virtuals i en el núvol.
+Aquest tema t’ensenyarà a configurar i administrar els serveis de xarxa essencials perquè una aplicació web funcioni: DNS per a la resolució de noms i serveis de directoris per gestionar identitats i permisos. També aprendràs a desplegar aquests serveis en entorns moderns de virtualització i contenidors.
 
-        Utilització de Docker, Kubernetes i màquines virtuals per desplegar i escalar aquests serveis.
-
-    Què aprendràs:
-
-        Crear imatges i contenidors amb serveis LDAP configurats.
-
-        Desplegar a plataformes com AWS, Azure o Google Cloud.
-
-        Automatitzar el desplegament i la gestió.
-
-Resum
-
-Aquest curs t’ensenyarà a configurar i administrar els serveis de xarxa essencials perquè una aplicació web funcioni: DNS per a la resolució de noms i serveis de directoris per gestionar identitats i permisos. També aprendràs a desplegar aquests serveis en entorns moderns de virtualització i contenidors.
-
-6- Documentación, sistemas de control de versiones y de integración continua:
+### 6- Documentación, sistemas de control de versiones y de integración continua:
 
 1. Eines col·laboratives per generar documentació. Instal·lació, configuració i ús
 
