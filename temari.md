@@ -174,108 +174,65 @@ En resum: Aquest curs et portarà de saber “muntar” un servidor web a admini
         * Fer que el servidor sigui escalable i fàcil de replicar.
 
 ### 4- Instalación y administración de servidores de transferencia de archivos:
-
 1. Configuració del servei de transferència de fitxers. Permisos i quotes
-
-    De què et parlaran: Com instal·lar i configurar un servidor de transferència de fitxers (FTP, SFTP, FTPS…).
-
-    Què aprendràs:
-
-        Instal·lar serveis com vsftpd, ProFTPD, FileZilla Server…
-
-        Crear i gestionar carpetes per a cada usuari o grup.
-
-        Assignar permisos de lectura/escriptura.
-
-        Configurar quotes d’espai per evitar que un usuari ocupi tot el disc.
+- De què et parlaran: Com instal·lar i configurar un servidor de transferència de fitxers (FTP, SFTP, FTPS…).
+- Què aprendràs:
+        * Instal·lar serveis com vsftpd, ProFTPD, FileZilla Server…
+        * Crear i gestionar carpetes per a cada usuari o grup.
+        * Assignar permisos de lectura/escriptura.
+        * Configurar quotes d’espai per evitar que un usuari ocupi tot el disc.
 
 2. Tipus d’usuaris i accessos al servei
-
-    De què et parlaran: Diferents formes de gestió d’usuaris.
-
-    Què aprendràs:
-
-        Usuaris locals del sistema, usuaris virtuals o autenticació contra una base de dades/LDAP.
-
-        Diferenciar accessos anònims, autenticats i amb rols.
-
-        Bones pràctiques per restringir l’accés només al necessari.
+- De què et parlaran: Diferents formes de gestió d’usuaris.
+- Què aprendràs:
+        * Usuaris locals del sistema, usuaris virtuals o autenticació contra una base de dades/LDAP.
+        * Diferenciar accessos anònims, autenticats i amb rols.
+        * Bones pràctiques per restringir l’accés només al necessari.
 
 3. Modes de connexió del client
-
-    De què et parlaran: Diferència entre mode actiu i mode passiu en FTP.
-
-    Què aprendràs:
-
-        Quan utilitzar cada mode (important per temes de tallafocs i NAT).
-
-        Configurar el servidor i el client perquè la connexió sigui estable.
-
-        Com evitar problemes de connexió per ports bloquejats.
+- De què et parlaran: Diferència entre mode actiu i mode passiu en FTP.
+- Què aprendràs:
+        * Quan utilitzar cada mode (important per temes de tallafocs i NAT).
+        * Configurar el servidor i el client perquè la connexió sigui estable.
+        * Com evitar problemes de connexió per ports bloquejats.
 
 4. Protocol segur de transferència de fitxers
-
-    De què et parlaran: Com xifrar les transferències per protegir dades.
-
-    Què aprendràs:
-
-        Configurar SFTP (basat en SSH) i FTPS (basat en TLS/SSL).
-
-        Gestionar certificats i claus públiques/privades.
-
-        Diferències entre protocols segurs i insegurs.
+- De què et parlaran: Com xifrar les transferències per protegir dades.
+- Què aprendràs:
+        * Configurar SFTP (basat en SSH) i FTPS (basat en TLS/SSL).
+        * Gestionar certificats i claus públiques/privades.
+        * Diferències entre protocols segurs i insegurs.
 
 5. Ús de comandes i eines gràfiques
-
-    De què et parlaran: Com treballar amb FTP/SFTP tant per terminal com amb programes visuals.
-
-    Què aprendràs:
-
-        Comandes bàsiques: ftp, sftp, put, get, ls, chmod, chown…
-
-        Eines gràfiques com FileZilla, WinSCP.
-
-        Automatitzar transferències amb scripts.
+- De què et parlaran: Com treballar amb FTP/SFTP tant per terminal com amb programes visuals.
+- Què aprendràs:
+        * Comandes bàsiques: ftp, sftp, put, get, ls, chmod, chown…
+        * Eines gràfiques com FileZilla, WinSCP.
+        * Automatitzar transferències amb scripts.
 
 6. Ús del servei en el desplegament d’aplicacions web
-
-    De què et parlaran: Com aprofitar FTP/SFTP per pujar aplicacions a un servidor web.
-
-    Què aprendràs:
-
-        Integrar FTP en processos de deploy manual o automatitzat.
-
-        Bones pràctiques per no interrompre el servei durant la pujada.
-
-        Organitzar carpetes per entorns (dev/test/prod).
+- De què et parlaran: Com aprofitar FTP/SFTP per pujar aplicacions a un servidor web.
+- Què aprendràs:
+        * Integrar FTP en processos de deploy manual o automatitzat.
+        * Bones pràctiques per no interrompre el servei durant la pujada.
+        * Organitzar carpetes per entorns (dev/test/prod).
 
 7. Documentació
-
-    De què et parlaran: Com deixar constància de la configuració.
-
-    Què aprendràs:
-
-        Documentar la configuració del servidor FTP/SFTP.
-
-        Redactar procediments de creació d’usuaris, permisos i seguretat.
-
-        Mantenir un registre d’incidències i canvis.
+- De què et parlaran: Com deixar constància de la configuració.
+- Què aprendràs:
+        * Documentar la configuració del servidor FTP/SFTP.
+        * Redactar procediments de creació d’usuaris, permisos i seguretat.
+        * Mantenir un registre d’incidències i canvis.
 
 8. Desplegament amb virtualització, núvol i contenidors
+- De què et parlaran: Posar en marxa servidors FTP en entorns moderns.
+- Què aprendràs:
+        * Crear màquines virtuals amb serveis de transferència de fitxers.
+        * Desplegar en núvol (AWS, Azure, GCP).
+        * Crear contenidors Docker amb serveis FTP/SFTP preconfigurats.
+        * Escalar i replicar fàcilment el servei.
 
-    De què et parlaran: Posar en marxa servidors FTP en entorns moderns.
-
-    Què aprendràs:
-
-        Crear màquines virtuals amb serveis de transferència de fitxers.
-
-        Desplegar en núvol (AWS, Azure, GCP).
-
-        Crear contenidors Docker amb serveis FTP/SFTP preconfigurats.
-
-        Escalar i replicar fàcilment el servei.
-
-5- Servicios de red implicados en el despliegue de una aplicación web:
+### 5- Servicios de red implicados en el despliegue de una aplicación web:
 
 1. Resolutors de noms. Procés de resolució d’un nom de domini
 
