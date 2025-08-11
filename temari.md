@@ -1,9 +1,7 @@
-**************************************************************************
-El mòdul profesional 0614. Desplegament d'aplicaciones web queda redactat:
-**************************************************************************
-Durada: 50 horas.Continguts bàsics =>
+# El mòdul profesional 0614. Desplegament d'aplicaciones web queda redactat:
+## Durada: 50 horas.Continguts bàsics =>
 
-TEMA 1- Implantació d'arquitecturs web:
+**TEMA 1-** Implantació d'arquitecturs web:
 
 1. Arquitectures web. Models.
 - De què et parlaran: Tipus d’arquitectures web que existeixen (monolítica, de tres capes, microserveis, etc.) i com s’organitzen les aplicacions web.
