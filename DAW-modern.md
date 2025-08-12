@@ -1,4 +1,4 @@
-﻿## Desplegament d'aplicacions web (BOE)
+﻿# Desplegament d'aplicacions web (BOE)
 ## TEMA 1 – Implantació d’arquitectures web
 - **Arquitectures web** → Monolítica, tres capes, microserveis, distribució client-servidor-base de dades.
 - **Servidors web i d’aplicacions** → Diferències, instal·lació i configuració bàsica.
@@ -105,7 +105,7 @@ Si volem portar aquest temari a un nivell més actual, hi afegiria:
 - Integració amb **repositoris privats** i desplegament a entorns **pre-producció i producció**.
 
 
-## Desplegament d'aplicacions web (moderna)
+# Desplegament d'aplicacions web (moderna)
 
 
 ## TEMA 1 – Arquitectures i desplegament bàsic d’aplicacions web
@@ -180,4 +180,5 @@ Si volem portar aquest temari a un nivell més actual, hi afegiria:
 - Orientació clara al **núvol i serveis gestionats**.
 - Afegit **observabilitat moderna** (mètriques, logs, traces).
 - Incorporació de **Infrastructure as Code**.
+
 
