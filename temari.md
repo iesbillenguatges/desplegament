@@ -415,4 +415,4 @@ Aquest tema t’ensenyarà a configurar i administrar els serveis de xarxa essen
 
 Resum
 
-Aquest curs t’ajudarà a dominar les eines i processos per treballar en equip, mantenir la documentació actualitzada, gestionar el codi de manera segura i automatitzar proves i desplegaments per garantir la qualitat del programari.
+Aquest tema t’ajudarà a dominar les eines i processos per treballar en equip, mantenir la documentació actualitzada, gestionar el codi de manera segura i automatitzar proves i desplegaments per garantir la qualitat del programari.
